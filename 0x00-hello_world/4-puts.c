@@ -1,7 +1,11 @@
 #include <stdio.h>
-/* A C program that prints using puts() function */
+
+/**
+ *  *main - Entry point
+ *   *Return: Always 0 (Success)
+ *    */
 int main(void)
 {
-	puts("\"Programming is like a multilingual puzzle.)
-	return(0)
+		puts("\"Programming is like building a multilingual puzzle");
+			return (0);
 }
