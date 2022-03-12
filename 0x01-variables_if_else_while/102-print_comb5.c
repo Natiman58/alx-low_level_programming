@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar (' ');
 			}
-			else if (tens != 0)
+			else if (ones != 0 && tens !=0)
 				putchar (',');
 
 			}
