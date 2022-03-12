@@ -7,6 +7,7 @@
  * You can only use `putchar` twice.
  * Return: 0
  */
+
 int main(void)
 {	int i;
 	for (i = 0; i < 10; i++)
