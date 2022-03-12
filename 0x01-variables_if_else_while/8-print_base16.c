@@ -6,11 +6,12 @@
  * Return: 0
  */
 int main(void)
-{	char digit;
-	for (digit = 0; digit <= 9; digit++)
-		putchar(digit);
-	for (digit = 'a'; digit <= 'f'; digit++)
-		putchar(digit);
+{	int i;
+	char letter;
+		for (i = 0; i <= 9; i++)
+		putchar (i);
+		for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
