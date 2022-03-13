@@ -1,8 +1,8 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-/*
- * main-print all possible combinations of 2 digit numbers.
+/**
+ * main - print all possible combinations of 2 digit numbers.
  * All numbers should be printed as 2 digits.
  * The numbers range from 0 to 99
  * All yout code must be in main fun.
@@ -26,7 +26,6 @@ int main(void)
 						putchar (hunds + '0');
 						putchar (tens + '0');
 						putchar (ones + '0');
-					}
 					if (hunds && thousands == 0)
 					{
 						putchar (' ');
@@ -35,6 +34,7 @@ int main(void)
 					{
 						putchar (' ');
 						putchar (',');
+					}
 					}
 				}
 			}
