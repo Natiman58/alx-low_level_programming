@@ -10,36 +10,25 @@
  */
 
 int main(void)
-{	int thousands;
-	int hunds;
+{
 	int tens;
 	int ones;
-		for (thousands = 0; hunds <= 99; thousands++)
+		for (tens = 0; tens <= 99; tens++)
 		{
-			for (hunds = 0; hunds <= 99; hunds++)
+			for (ones = tens + 1; ones <= 99; ones++)
+			{	putchar (thousands + '0');
+				putchar (hunds + '0');
+			if (tens && ones == 0)
 			{
-				for (tens = 0; tens <= 99; tens++)
-				{
-					for (ones = tens + 1; ones <= 99; ones++)
-					{
-						putchar (thousands + '0');
-						putchar (hunds + '0');
-						putchar (tens + '0');
-						putchar (ones + '0');
-					if (hunds && thousands == 0)
-					{
-						putchar (' ');
-					}
-					else
-					{
-						putchar (' ');
-						putchar (',');
-					}
-					}
-				}
+				putchar (' ');
+			}
+			else
+			{
+				putchar (' ');
+				putchar (',');
+			}
 			}
 		}
 	putchar('\n');
 	return (0);
 }
-
