@@ -1,7 +1,7 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
+/*
  * main-print all possible combinations of 2 digit numbers.
  * All numbers should be printed as 2 digits.
  * The numbers range from 0 to 99
