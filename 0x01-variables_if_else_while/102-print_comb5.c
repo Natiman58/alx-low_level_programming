@@ -1,5 +1,3 @@
-#include<stdlib.h>
-#include<time.h>
 #include<stdio.h>
 /**
  * main - print all possible combinations of 2 digit numbers.
