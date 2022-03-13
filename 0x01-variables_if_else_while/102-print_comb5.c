@@ -16,8 +16,8 @@ int main(void)
 		for (tens = 0; tens <= 99; tens++)
 		{
 			for (ones = tens + 1; ones <= 99; ones++)
-			{	putchar (thousands + '0');
-				putchar (hunds + '0');
+			{	putchar (tens + '0');
+				putchar (ones + '0');
 			if (tens && ones == 0)
 			{
 				putchar (' ');
