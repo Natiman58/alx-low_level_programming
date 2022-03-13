@@ -7,21 +7,26 @@
  * Return: Always 0 (Sucess)
  */
 int main(void)
-{	int hunds;
+{	int thousands;
+	int hunds;
 	int tens;
 	int ones;
-		for (hunds = 0; hunds <= 9; hunds++)
+		for (thousands = 0 ; thousands <= 9; thousands++)
 		{
-			for (tens = hunds + 1; tens <= 9; tens++)
+			for (hunds = 0; hunds <= 9; hunds++)
 			{
-				for (ones = tens + 1; ones <= 9; ones++)
+				for (tens = 0; tens <= 9; tens++)
 				{
-					putchar(hunds + '0');
-					putchar(tens + '0');
-					putchar(ones + '0');
-					if (hunds < 7)
-					{	putchar(',');
+					for (ones = tens + 1; ones <= 9; ones++)
+					{	putchar(thousands + '0');
+						putchar(hunds + '0');
+						putchar(tens + '0');
+						putchar(ones + '0');
+					if (thousands == 0)
+					{
+						putchar(',');
 						putchar(' ');
+					}
 					}
 				}
 			}
