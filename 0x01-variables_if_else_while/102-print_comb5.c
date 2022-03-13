@@ -8,23 +8,34 @@
  */
 
 int main(void)
-{
+{	int thousands;
+	int hunds;
 	int tens;
 	int ones;
-		for (tens = 0; tens <= 9; tens++)
+		for (thousands = 0; hunds <= 99; thousands++)
 		{
-			for (ones = 0; ones <= 9; ones++)
+			for (hunds = 0; hunds <= 99; hunds++)
 			{
-				putchar(tens + '0');
-				putchar(ones + '0');
-			if (!(tens == 9 && ones == 9))
-			{
-				putchar (' ');
-			}
-			else if (ones != 0 && tens !=0)
-				putchar (',');
-
-			}
+				for (tens = 0; tens <= 99; tens++)
+				{
+					for (ones = 0; ones <= 99; ones++)
+					{
+						putchar (thousands + '0');
+						putchar (hunds + '0');
+						putchar (tens + '0');
+						putchar (ones + '0');
+					if (hunds && thousands == 0)
+					{
+						putchar (' ');
+					}
+					else
+					{
+						putchar (' ');
+						putchar (',');
+					}
+					}
+				}
+			}	
 		}
 	putchar('\n');
 	return (0);
