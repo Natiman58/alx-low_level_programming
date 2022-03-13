@@ -24,6 +24,7 @@ int main(void)
 						putchar (hunds + '0');
 						putchar (tens + '0');
 						putchar (ones + '0');
+					}
 					if (hunds && thousands == 0)
 					{
 						putchar (' ');
@@ -32,7 +33,6 @@ int main(void)
 					{
 						putchar (' ');
 						putchar (',');
-					}
 					}
 				}
 			}
