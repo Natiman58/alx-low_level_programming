@@ -1,0 +1,1 @@
+about putchar function
