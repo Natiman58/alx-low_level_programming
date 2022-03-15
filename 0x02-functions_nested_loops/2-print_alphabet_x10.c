@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * Descreption - print_alphabet_x10 is a prototype
- * print_alphabet_10x - prints letters in lowercase 10 times;
- * Return: Always 0
+ * print_alphabet_x10-print_alphabet_x10 is a prototype
+ * Return 0
  */
 void print_alphabet_x10(void)
 {
