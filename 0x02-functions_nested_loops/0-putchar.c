@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
  * main - print "_putchar" followed by new line.
  * Description: You are not allowed to include standard libs.
@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	char p[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(p[i]);
 		 i++;
