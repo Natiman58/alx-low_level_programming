@@ -15,7 +15,7 @@ int main(void)
 					printf("%u", n3);
 					n1 = n2;
 					n2 = n3;
-					printf(",");
+					printf(", ");
 				}
 				else
 				{
