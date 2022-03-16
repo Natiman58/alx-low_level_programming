@@ -12,7 +12,7 @@ int main(void)
 				if (count <= 50)
 				{
 					n3 = n1 + n2;
-					printf("%lu", n3);
+					printf("%u", n3);
 					n1 = n2;
 					n2 = n3;
 					printf(", ");
