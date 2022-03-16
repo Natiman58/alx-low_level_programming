@@ -25,5 +25,6 @@ int main(void)
 		i = k;
 		count++;
 	}
+	printf("\n");
 	return (0);
 }
