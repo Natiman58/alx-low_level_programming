@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int n1 = 1, n2 = 2, n3, count;
+	int n1 = 0, n2 = 1, n3, count;
 		for (count = 3; count <= 50; count++)
 		{
 			n3 = n1 + n2;
