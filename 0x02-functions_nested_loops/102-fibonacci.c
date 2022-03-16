@@ -10,7 +10,7 @@ int main(void)
 		for (count = 3; count <= 50; count++)
 		{
 			n3 = n1 + n2;
-			printf("%dn", n3);
+			printf("%d", n3);
 			n1 = n2;
 			n2 = n3;
 			printf(", ");
