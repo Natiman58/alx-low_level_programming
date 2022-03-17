@@ -1,4 +1,3 @@
-#include"main.h"
 #include<stdio.h>
 /**
  * main - a function to print 1 - 100
