@@ -8,17 +8,16 @@
 
 int main(void)
 {
-	long int n = 612852475143;
-	long int a;
+	long i, n = 612852475143;
 
-	for (a = 2; a <= n; a++)
+	for (i = 2; i <= n; i++)
 	{
-		if (n % 2 == 0)
+		if (n % i == 0)
 		{
-			n = n / a;
-			a--;
+			n = n / i;
+			i--;
 		}
 	}
-	printf("%ld\n", a);
+	printf("%lu\n", i);
 	return (0);
 }
