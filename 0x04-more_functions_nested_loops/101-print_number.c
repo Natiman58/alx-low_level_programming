@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_number - prints an integer using _putchar() function
- * @n:input number
- * @i-tens
+ * print_number-prints an intiger
+ * @l-floating nums
  * @j-digit
- * @k-positive
+ * @k-unsigned n
+ * @n: the number to be printed as a _putchar form
  * Return: void
  */
 void print_number(int n)
@@ -23,9 +23,12 @@ void print_number(int n)
 			k = n * -1;
 			_putchar('-');
 		}
+
 		while (l <= k)
 			l *= 10;
+
 		i = l / 10;
+
 		while (i >= 1)
 		{
 			j = k / i;
