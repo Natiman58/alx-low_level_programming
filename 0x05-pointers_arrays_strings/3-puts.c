@@ -1,4 +1,5 @@
 #include"main.h"
+#include<unistd.h>
 /**
  * _puts - writes the string s and a trailing newline to stdout.
  * @str: a pointer of char type
