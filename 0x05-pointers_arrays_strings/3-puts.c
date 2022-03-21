@@ -1,5 +1,5 @@
 #include"main.h"
-#include<unistd.h>
+
 /**
  * _puts - writes the string s and a trailing newline to stdout.
  * @str: a pointer of char type
@@ -7,12 +7,16 @@
  */
 void _puts(char *str)
 {
-	int string = 0;
+	int s = 0;
 
-	while (*(str + 1) != '\0')
+	while (s >= 0)
 	{
-		_putchar(str[1]);
-		string++;
+		if (str[s] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[s]);
+		s++;
 	}
-	_putchar('\n');
 }
