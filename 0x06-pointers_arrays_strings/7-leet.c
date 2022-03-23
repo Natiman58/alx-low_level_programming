@@ -1,24 +1,28 @@
 #include"main.h"
 /**
- * leet - a function that encodes a string to a number
- * @n: the input string
- * Return: n
+ * leet - encods a string to a number
+ * @s: a letter pointer
+ * Return: s
  */
-char *leet(char *n)
+char *leet(char *s)
 {
-	int i, j;
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "44330077ll";
+	int i;
+	int count = 0;
+	int upp_case[] = {65, 69, 79, 84, 76};
+	int low_case[] = {97, 101, 111, 116, 108};
+	int nums[] = {52, 51, 48, 55, 49};
 
-	for (i = 0; n[i] != '\0'; i++)
+	while (*(s + count) != '\0')
 	{
-		for (j = 0; j < 10; j++)
+		for (i = 0; i < 5; i++)
 		{
-			if (n[i] == s1[j])
+			if (*(s + count) == low_case[i] || *(s + count) == upp_case[i])
 			{
-				n[i] = s2[j];
+				*(s + count) = nums[i];
+				break;
 			}
 		}
+		count++;
 	}
-	return (n);
+	return (s);
 }
