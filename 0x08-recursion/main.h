@@ -9,3 +9,5 @@ int _putchar(char c);
 int help(int c, int i);
 int help1(int n, int d);
 int _sqrt(int x, int i);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
