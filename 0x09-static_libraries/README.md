@@ -1,1 +1,1 @@
-About static and dynamic libraries
+about libraries
