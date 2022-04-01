@@ -1,1 +1,1 @@
-about libraries
+about static lib
