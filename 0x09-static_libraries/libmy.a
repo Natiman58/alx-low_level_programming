@@ -43,9 +43,7 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 2-strchr.o/     0           0     0     644     32        `
 char *_strchr(char *s, char c);
-3-puts.o/       0           0     0     644     21        `
-void _puts(char *s);
-
+3-puts.o/       0           0     0     644     0         `
 4-strpbrk.o/    0           0     0     644     39        `
 char *_strpbrk(char *s, char *accept);
 
