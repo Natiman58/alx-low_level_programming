@@ -2,10 +2,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main - a program that multiplies two numbers
+ * main-a program that multiplies two numbers
  * followed by new line
  * assume all the numbers are intigers
- * @arc: argument count
+ * @argc: argument count
  * @argv: array of arguments
  * print Error if the program doesnt recieve 2 arguments
  * followed by new line and
