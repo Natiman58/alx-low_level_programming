@@ -2,7 +2,7 @@
 #include<stdlib.h>
 /**
  * free_grid - frees the previous grid functions done by malloc
- * @grid - double pointer to the 2d grid function
+ * @grid: double pointer to the 2d grid function
  * @height: height of the grid
  * Return:
  */
