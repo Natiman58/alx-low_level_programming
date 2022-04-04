@@ -3,6 +3,8 @@
 /**
  * alloc_grid-returns a pointer to a 2 dimentional array of integers
  * each element of the grid should be initialized to 0
+ * @width: grid width
+ * @height: grid height
  * Return: NULL on failure
  * or if the width or height is 0 or negative
  * if not return the pointer
