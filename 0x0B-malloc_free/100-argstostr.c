@@ -5,11 +5,11 @@
  * @ac: argument count
  * @av: argument value
  * Return: NULL if ac or av are null or fail
- * if not return pointer(a) to the the fun
+ * if not return pointer(b) to the the fun
  */
 char *argstostr(int ac, char **av)
 {
-	char *a;
+	char *a, *b;
 	int i, j, total;
 
 	if (ac == 0 || av == NULL)
@@ -25,6 +25,7 @@ char *argstostr(int ac, char **av)
 	a = malloc(total * sizeof(char));
 	if (a == NULL)
 		return (NULL);
+	b = a;
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
@@ -35,5 +36,5 @@ char *argstostr(int ac, char **av)
 		*a = '\n';
 		a++;
 	}
-	return (a);
+	return (b);
 }
