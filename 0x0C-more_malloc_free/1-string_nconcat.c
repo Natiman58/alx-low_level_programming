@@ -2,8 +2,8 @@
 #include"stdlib.h"
 /**
  * string_nconcat - a function that concatnates two strings
- * @s1: string  to append to
- * @s2: string to concatenate from
+ * @s1: string
+ * @s2: string
  * @n: number of bytes to from s2 to concatenate to s1
  * Return: pointer to a newly allocated space in memory
  * if fail return NULL
