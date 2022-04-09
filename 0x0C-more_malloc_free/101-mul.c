@@ -1,6 +1,7 @@
 #include"main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include<unistd.h>
 
 /**
  * is_digit - checks if a string contains a non digit char(not b/n 0 & 9)
