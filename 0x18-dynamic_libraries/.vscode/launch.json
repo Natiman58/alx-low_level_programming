@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/natnaelmanyazewal/Dev/alx-low_level_programming/0x18-dynamic_libraries",
+      "program": "/Users/natnaelmanyazewal/Dev/alx-low_level_programming/0x18-dynamic_libraries/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
