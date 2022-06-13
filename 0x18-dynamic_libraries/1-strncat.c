@@ -1,11 +1,12 @@
 #include"main.h"
 /**
- * _strcat - function that appends src to dest string
- * @dest: the first string
- * @src: the second string to get appended to the first string
- * Return: a pointer to the resulting dest
+ *_strncat-function concatenates strings using at most n bytes from src(source)
+ * @dest: destination file
+ * @src: source file
+ * @n: the max file number
+ * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
@@ -14,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	while (j >= 0)
+	while (j >= 0 && j < n)
 	{
 		*(dest + i) = *(src + j);
 		if (*(src + j) == '\0')
