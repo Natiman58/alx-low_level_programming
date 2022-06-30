@@ -10,18 +10,18 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ptr;
 
-	if (!size)
+	if (size == 0)
 		return (NULL);
 
 	ptr = malloc(sizeof(hash_table_t));
 
-	if (!ptr)
+	if (ptr == NULL)
 		return (NULL);
 
 	ptr->size = size;
 	ptr->array = calloc((size_t)ptr->size, sizeof(hash_node_t *));
 
-	if (!ptr->array)
+	if (ptr->array == NULL)
 	{
 		return (NULL);
 	}
