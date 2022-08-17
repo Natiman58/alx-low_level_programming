@@ -2,8 +2,10 @@
 """
     A module containing the island_perimeter calculator function
 """
+
+
 def island_perimeter(grid):
-    """ 
+    """
         A function that returns the perimeter of an island
         gride: is a list of integers
         0 = water zone
@@ -17,14 +19,12 @@ def island_perimeter(grid):
     for i in range(num_rows):
         for j in range(num_col):
             if grid[i][j] == 1:
-                if (i - 1) == 0 or grid[i - 1][j] == 0:
+                if i == 0 or grid[i - 1][j] == 0:
                     perim += 1
                 if (i + 1) == num_rows or grid[i + 1][j] == 0:
                     perim += 1
-                
-                if (j - 1) == 0 or grid[i][j - 1] == 0:
+                if j == 0 or grid[i][j - 1] == 0:
                     perim += 1
                 if (j + 1) == num_col or grid[i][j + 1] == 0:
                     perim += 1
     return perim
-
