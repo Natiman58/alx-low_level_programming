@@ -1,5 +1,5 @@
-#ifndef STHIO_H
-#define STDIO_H
+#ifndef SEARCH_ALGOS
+#define SEARCH_ALGOS
 
 #include <stdio.h>
 
