@@ -3,7 +3,7 @@
  * linear_search - uses liner search algorithm to find an element
  * @array: the array to look into
  * @value: the value being looked for
- *
+ * @size: size of the array
  * Return: index of the value
  * else -1
  */
